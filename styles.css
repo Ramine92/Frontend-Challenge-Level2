@@ -1,0 +1,110 @@
+body{
+  background-color: hsl(234, 29%, 20%);
+  font-family: 'Roboto', sans-serif;
+}
+#container{
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-top: 300px;
+  margin-left: 700px;
+  border-radius: 30px;
+  background-color: white;
+}
+#text h1{
+  color:hsl(234, 29%, 20%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 80px;
+  padding-top: 120px;
+}
+#text #first-txt{
+  margin-left: 80px;
+  font-size: 17px;
+  color: hsl(234, 29%, 20%);
+}
+#text #img-txt1,#img-txt2,#img-txt3{
+      display: flex;
+      font-size: 17px;
+      margin-left: 80px;
+      gap: 20px;
+}
+#email{
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 80px;
+}
+#email-txt{
+  display: flex;
+}
+#email-txt #email{
+  margin-right: 110px;
+}
+#email-txt #invalid-email{
+  color:#D32F2F;
+}
+#input{
+  display: block;
+  text-align: left;
+  margin-left: 80px;
+  font-size: 16px;
+  padding: 17px 20px;
+  width: 320px;
+  border-color: hsl(231, 7%, 60%);
+  border-radius: 8px;
+}
+.error-placeholder::placeholder {
+  color: #E57373; /* Dark red color */
+}
+#btn-sub,#dismiss-btn{
+  padding: 17px 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  width: 363px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 80px;
+  cursor: pointer;
+  background-color: hsl(234, 29%, 20%);
+  margin-bottom: 80px;
+}
+#btn-sub:hover,#dismiss-btn:hover{
+    background: linear-gradient(to right,hsl(4, 100%, 69%),hsl(22, 98%, 63%));
+    box-shadow: 0 0 20px rgba(255, 140, 66, 0.7);
+}
+#app{
+  display: flex;
+  margin-right: 80px;
+}
+#img-app{
+  margin-left: 60px;
+  margin-top: 50px;
+  height: 700px;
+}
+#newload{
+  background-color: white;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 0px 70px;
+  margin: auto;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#newload img{
+  margin-top: 30px;
+}
+#newload h1{
+  color: hsl(234, 29%, 20%);
+  font-size: 60px;
+}
+#newload p{
+  line-height: 1.3;
+}
+#newload #dismiss-btn{
+  margin-left: 0px;
+}
